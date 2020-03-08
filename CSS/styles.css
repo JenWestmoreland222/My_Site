@@ -1,0 +1,181 @@
+/*************** Class Selector**********/
+.top-container {
+  background-color: #52de97;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffba5a;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #52de97;
+  margin: 0;
+  position: relative;
+  padding: 20px 0;
+}
+
+.footer-link{
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Coding-Computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.India{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile{
+  padding-top: 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skills{
+  padding-top: 20px;
+}
+
+.contact-me{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #2C7873;
+   box-shadow: 1px 1px 20px 0 #000000;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #2C7873 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #52DE97 1px;
+   background: #52DE97;
+   background-image: -webkit-linear-gradient(top, #52DE97, #2C7873);
+   background-image: -moz-linear-gradient(top, #52DE97, #2C7873);
+   background-image: -ms-linear-gradient(top, #52DE97, #2C7873);
+   background-image: -o-linear-gradient(top, #52DE97, #2C7873);
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop (0%,#52DE97), color-stop (100%,#2C7873));
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+/***************Tag Selector************/
+
+h1 {
+  font-size: 562.5%;
+  /***** To make a dynamic font size - don't use px - 90 px ; 16 px = 100%; 90/16 = 56.25 so 562.5 % ******/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #2c7873;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2c7873;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2c7873;
+
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #40514E;
+  line-height: 2;
+}
+
+hr{
+  border-top-style: dotted;
+  border-width: 6Px 0 0;
+  border-color: white;
+  margin-top: 30px;
+  width: 5%;}
+
+a{
+    text-decoration: none;
+    color: #2c7873;
+  }
+
+a:hover{
+  color: white;
+}
+
+/****a:link {
+  color: #2c7873;
+}
+
+a:visited {
+  color: #2c7873;
+}****/
